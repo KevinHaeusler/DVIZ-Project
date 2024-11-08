@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.5)  8 NOV 2024 10:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.5)  8 NOV 2024 11:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1526,13 +1526,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./report.tex:186: LaTeX Error: \begin{document} ended by \end{about}.
+./report.tex:214: LaTeX Error: \begin{document} ended by \end{about}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.186 \end{about}
+l.214 \end{about}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1542,26 +1542,26 @@ or  <return>  to continue without it.
 
 [3]
 
-./report.tex:190: LaTeX Error: Environment motivation undefined.
+./report.tex:218: LaTeX Error: Environment motivation undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.190 \begin{motivation}
+l.218 \begin{motivation}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./report.tex:197: LaTeX Error: \begin{document} ended by \end{motivation}.
+./report.tex:225: LaTeX Error: \begin{document} ended by \end{motivation}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.197 \end{motivation}
+l.225 \end{motivation}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1585,7 +1585,7 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 Here is how much of TeX's memory you used:
  38018 strings out of 473362
  704358 string characters out of 5720483
- 1952965 words of memory out of 5000000
+ 1954965 words of memory out of 5000000
  60557 multiletter control sequences out of 15000+600000
  596940 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1593,8 +1593,8 @@ Here is how much of TeX's memory you used:
 </home/kevin/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></home
 /kevin/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></home/kevin/t
 exlive/2024/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on /mnt/dev/Projects/DVIZ-Project/out/report.pdf (5 pages, 11306
-3 bytes).
+Output written on /mnt/dev/Projects/DVIZ-Project/out/report.pdf (5 pages, 11538
+2 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  81 compressed objects within 1 object stream

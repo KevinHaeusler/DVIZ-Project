@@ -178,11 +178,39 @@ Due to me (Kevin Häusler) being the sole member of this project I have omitted 
 \begin{about}
 \section{About the Project}
 \subsection{What is the project?}
-info
+The project is something akin to a cyber security analytic about the devices listed on shodan.io based on their location
+being Rotkreuz. It is supposed to show insights about what is accessible and possibly insecure.
+
+There are also dynamic parts where you can filter the data.
 \subsection{Data}
-Data
+The data is generated from shodan.io. I do have a lifetime membership that grants me enough credits to request and
+download 10000 entries. I did filter the data to be only from Rotkreuz which resulted in a little bit over 9000
+datapoints that I am using for this project.
+
 \subsection{Tools}
-Tools
+Here is a list of the tools I am using:
+
+PyCharm
+Python 3.11
+UV
+Streamlit
+Shodan CLI
+Docker
+Github
+LaTeX
+
+I have setup the project in pycharm with UV so it is easier to distribute, there is also a docker file in case you have
+docker installed to easily run this project without having to create your own environment.
+
+For the main library I have decided to use Streamlit, I have tried it out in the past but never for a real project so I
+wanted to get more indepth experience with it. It has a great documentation and it lets me easily create dataframes and
+charts for this project.
+
+The whole report is also written in PyCharm with LaTeX and uploaded to the Github repository. It is written in the
+report.tex file and compiled to report.pdf.
+
+This setup is also useful in case I need to work from different machines.
+
 \end{about}
 \newpage
 
