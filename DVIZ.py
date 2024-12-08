@@ -5,7 +5,7 @@ from utils import load_excel
 st.set_page_config(page_title="Shodan Data Explorer")
 
 # Load the default file
-default_file_path = 'shodan_data.xlsx'
+default_file_path = 'data/shodan_data_9k.xlsx'
 data = load_excel(default_file_path)
 
 if data and isinstance(data, dict):

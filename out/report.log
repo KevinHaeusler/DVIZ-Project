@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.5)  8 NOV 2024 11:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.5)  8 DEC 2024 10:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1095,18 +1095,22 @@ rs
 \f@nch@O@olf=\skip97
 \f@nch@O@orf=\skip98
 )
+(/home/kevin/texlive/2024/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty
+Package: dirtytalk 2010/11/21 A package making "quoting" easier
+\c@dirtytalk@qdepth=\count473
+)
 (/home/kevin/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count473
+\lst@mode=\count474
 \lst@gtempboxa=\box78
 \lst@token=\toks49
-\lst@length=\count474
+\lst@length=\count475
 \lst@currlwidth=\dimen298
-\lst@column=\count475
-\lst@pos=\count476
+\lst@column=\count476
+\lst@pos=\count477
 \lst@lostspace=\dimen299
 \lst@width=\dimen300
-\lst@newlines=\count477
-\lst@lineno=\count478
+\lst@newlines=\count478
+\lst@lineno=\count479
 \lst@maxwidth=\dimen301
 
 (/home/kevin/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
@@ -1114,8 +1118,8 @@ File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 )
 (/home/kevin/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count479
-\lst@skipnumbers=\count480
+\c@lstnumber=\count480
+\lst@skipnumbers=\count481
 \lst@framebox=\box79
 )
 (/home/kevin/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
@@ -1145,8 +1149,8 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \@linkdim=\dimen302
-\Hy@linkcounter=\count481
-\Hy@pagecounter=\count482
+\Hy@linkcounter=\count482
+\Hy@pagecounter=\count483
 
 (/home/kevin/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-10-30 v7.01k Hyperref: PDFDocEncoding definition (HO)
@@ -1156,7 +1160,7 @@ Now handling font encoding PD1 ...
 (/home/kevin/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count483
+\Hy@SavedSpaceFactor=\count484
 
 (/home/kevin/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-10-30 v7.01k Hyperref: PDF Unicode definition (HO)
@@ -1170,7 +1174,7 @@ Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count484
+\c@Hy@tempcnt=\count485
 LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen303
 
@@ -1181,7 +1185,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count485
+\Fld@menulength=\count486
 \Field@Width=\dimen304
 \Fld@charsize=\dimen305
 Package hyperref Info: Hyper figures OFF on input line 6042.
@@ -1196,9 +1200,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count486
-\c@Item=\count487
-\c@Hfootnote=\count488
+\Hy@abspage=\count487
+\c@Item=\count488
+\c@Hfootnote=\count489
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -1210,8 +1214,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count489
-\c@bookmark@seq@number=\count490
+\Fld@listcount=\count490
+\c@bookmark@seq@number=\count491
 
 (/home/kevin/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.st
 y
@@ -1226,84 +1230,84 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip99
 )
-Package hyperref Info: Option `plainpages' set `false' on input line 88.
-Package hyperref Info: Option `bookmarksopen' set `false' on input line 88.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 88.
-Package hyperref Info: Option `breaklinks' set `true' on input line 88.
-Package hyperref Info: Option `linktocpage' set `true' on input line 88.
-Package hyperref Info: Option `colorlinks' set `true' on input line 88.
+Package hyperref Info: Option `plainpages' set `false' on input line 89.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 89.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 89.
+Package hyperref Info: Option `breaklinks' set `true' on input line 89.
+Package hyperref Info: Option `linktocpage' set `true' on input line 89.
+Package hyperref Info: Option `colorlinks' set `true' on input line 89.
 LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line
- 117.
+ 118.
  (/home/kevin/texlive/2024/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 117.
+(Font)              scaled to size 10.95pt on input line 118.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
 
 (/mnt/dev/Projects/DVIZ-Project/out/report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 117.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 118.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
- 117.
+ 118.
 
 (/home/kevin/texlive/2024/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 118.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-117.
+118.
 
 (/home/kevin/texlive/2024/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 118.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 117.
+ 118.
 
 (/home/kevin/texlive/2024/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 118.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 117.
+e 118.
 
 (/home/kevin/texlive/2024/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
 
 (/home/kevin/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count491
+\scratchcounter=\count492
 \scratchdimen=\dimen306
 \scratchbox=\box80
-\nofMPsegments=\count492
-\nofMParguments=\count493
+\nofMPsegments=\count493
+\nofMParguments=\count494
 \everyMPshowfont=\toks50
-\MPscratchCnt=\count494
+\MPscratchCnt=\count495
 \MPscratchDim=\dimen307
-\MPnumerator=\count495
-\makeMPintoPDFobject=\count496
+\MPnumerator=\count496
+\makeMPintoPDFobject=\count497
 \everyMPtoPDFconversion=\toks51
 ) (/home/kevin/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1313,10 +1317,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@mv@tabular=\count497
-\c@mv@boldtabular=\count498
-LaTeX Info: Command `\dddot' is already robust on input line 117.
-LaTeX Info: Command `\ddddot' is already robust on input line 117.
+\c@mv@tabular=\count498
+\c@mv@boldtabular=\count499
+LaTeX Info: Command `\dddot' is already robust on input line 118.
+LaTeX Info: Command `\ddddot' is already robust on input line 118.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1358,8 +1362,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'report.bbl' not found.
 
 No file report.bbl.
-Package biblatex Info: Reference section=0 on input line 117.
-Package biblatex Info: Reference segment=0 on input line 117.
+Package biblatex Info: Reference section=0 on input line 118.
+Package biblatex Info: Reference segment=0 on input line 118.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1394,23 +1398,23 @@ Package biblatex Info: Reference segment=0 on input line 117.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count499
-Package hyperref Info: Link coloring ON on input line 117.
+\c@lstlisting=\count500
+Package hyperref Info: Link coloring ON on input line 118.
 (/mnt/dev/Projects/DVIZ-Project/out/report.out)
 (/mnt/dev/Projects/DVIZ-Project/out/report.out)
 \@outlinefile=\write5
 \openout5 = `report.out'.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 128.
+(Font)              scaled to size 12.0pt on input line 129.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 128.
+(Font)              scaled to size 12.0pt on input line 129.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/sc' will be
-(Font)              scaled to size 12.0pt on input line 128.
+(Font)              scaled to size 12.0pt on input line 129.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 132.
+(Font)              scaled to size 14.4pt on input line 133.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 132.
+(Font)              scaled to size 14.4pt on input line 133.
 
 
 [1
@@ -1500,39 +1504,51 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 156.
+(Font)              scaled to size 10.0pt on input line 157.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.0pt on input line 156.
+(Font)              scaled to size 10.0pt on input line 157.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.156 \newpage
+l.157 \newpage
                [1]
 
 [2]
 
-./report.tex:178: LaTeX Error: Environment about undefined.
+./report.tex:184: LaTeX Error: Environment about undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.178 \begin{about}
+l.184 \begin{about}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./report.tex:214: LaTeX Error: \begin{document} ended by \end{about}.
+Underfull \hbox (badness 10000) in paragraph at lines 201--209
+
+ []
+
+
+
+[3]
+LaTeX Info: Symbol \textasciiacute not provided by
+            font family ntxtlf in TS1 encoding.
+            Default family used instead on input line 236.
+
+
+./report.tex:239: LaTeX Error: \begin{document} ended by \end{about}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.214 \end{about}
+l.239 \end{about}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1540,28 +1556,29 @@ or  <return>  to continue without it.
 
 
 
-[3]
+[4{/home/kevin/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.en
+c}]
 
-./report.tex:218: LaTeX Error: Environment motivation undefined.
+./report.tex:243: LaTeX Error: Environment motivation undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.218 \begin{motivation}
+l.243 \begin{motivation}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./report.tex:225: LaTeX Error: \begin{document} ended by \end{motivation}.
+./report.tex:256: LaTeX Error: \begin{document} ended by \end{motivation}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.225 \end{motivation}
+l.256 \end{motivation}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1569,7 +1586,132 @@ or  <return>  to continue without it.
 
 
 
-[4] 
+[5]
+
+./report.tex:260: LaTeX Error: Environment research undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.260 \begin{research}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./report.tex:282: LaTeX Error: \begin{document} ended by \end{research}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.282 \end{research}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+
+[6]
+
+./report.tex:286: LaTeX Error: Environment data undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.286 \begin{data}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+</home/kevin/images/shodan-search-results.png, id=130, 1863.96375pt x 1192.455p
+t>
+File: /home/kevin/images/shodan-search-results.png Graphic file (type png)
+<use /home/kevin/images/shodan-search-results.png>
+Package pdftex.def Info: /home/kevin/images/shodan-search-results.png  used on 
+input line 296.
+(pdftex.def)             Requested size: 455.23882pt x 291.23517pt.
+</home/kevin/images/shodan-download-page.png, id=132, 1862.96pt x 902.37125pt>
+File: /home/kevin/images/shodan-download-page.png Graphic file (type png)
+<use /home/kevin/images/shodan-download-page.png>
+Package pdftex.def Info: /home/kevin/images/shodan-download-page.png  used on i
+nput line 305.
+(pdftex.def)             Requested size: 455.22107pt x 220.4977pt.
+</home/kevin/images/downloaded-archive.png, id=133, 1419.3025pt x 605.26125pt>
+File: /home/kevin/images/downloaded-archive.png Graphic file (type png)
+<use /home/kevin/images/downloaded-archive.png>
+Package pdftex.def Info: /home/kevin/images/downloaded-archive.png  used on inp
+ut line 317.
+(pdftex.def)             Requested size: 455.24727pt x 194.14009pt.
+
+
+[7 </home/kevin/images/shodan-search-results.png> </home/kevin/images/shodan-do
+wnload-page.png>]
+
+[8 </home/kevin/images/downloaded-archive.png>]
+</home/kevin/images/32k-dataset-na-entries.png, id=151, 1052.93375pt x 521.95pt
+>
+File: /home/kevin/images/32k-dataset-na-entries.png Graphic file (type png)
+<use /home/kevin/images/32k-dataset-na-entries.png>
+Package pdftex.def Info: /home/kevin/images/32k-dataset-na-entries.png  used on
+ input line 331.
+(pdftex.def)             Requested size: 315.88255pt x 156.5862pt.
+LaTeX Info: Symbol \textasciiacute not provided by
+            font family ntxtlf in TS1 encoding.
+            Default family used instead on input line 332.
+LaTeX Info: Symbol \textasciiacute not provided by
+            font family ntxtlf in TS1 encoding.
+            Default family used instead on input line 332.
+</home/kevin/images/9k-dataset-na-entries.png, id=152, 1052.93375pt x 521.95pt>
+
+File: /home/kevin/images/9k-dataset-na-entries.png Graphic file (type png)
+<use /home/kevin/images/9k-dataset-na-entries.png>
+Package pdftex.def Info: /home/kevin/images/9k-dataset-na-entries.png  used on 
+input line 340.
+(pdftex.def)             Requested size: 315.88255pt x 156.5862pt.
+
+
+[9 </home/kevin/images/32k-dataset-na-entries.png> </home/kevin/images/9k-datas
+et-na-entries.png>]
+</home/kevin/images/digital-assets-ag-rotkreuz-ch-search.png, id=162, 1187.4362
+5pt x 385.44pt>
+File: /home/kevin/images/digital-assets-ag-rotkreuz-ch-search.png Graphic file 
+(type png)
+<use /home/kevin/images/digital-assets-ag-rotkreuz-ch-search.png>
+Package pdftex.def Info: /home/kevin/images/digital-assets-ag-rotkreuz-ch-searc
+h.png  used on input line 352.
+(pdftex.def)             Requested size: 356.23363pt x 115.63289pt.
+</home/kevin/images/shodan-digital-assets-ag.png, id=163, 1187.43625pt x 385.44
+pt>
+File: /home/kevin/images/shodan-digital-assets-ag.png Graphic file (type png)
+<use /home/kevin/images/shodan-digital-assets-ag.png>
+Package pdftex.def Info: /home/kevin/images/shodan-digital-assets-ag.png  used 
+on input line 364.
+(pdftex.def)             Requested size: 356.23363pt x 115.63289pt.
+
+
+./report.tex:375: LaTeX Error: \begin{document} ended by \end{data}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.375 \end{data}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+
+[10 </home/kevin/images/digital-assets-ag-rotkreuz-ch-search.png> </home/kevin/
+images/shodan-digital-assets-ag.png>]
+
 enddocument/afterlastpage: lastpage setting LastPage.
 (/mnt/dev/Projects/DVIZ-Project/out/report.aux)
  ***********
@@ -1577,27 +1719,28 @@ LaTeX2e <2024-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: DF87D908FC209F94A05349F6391A7B6E;909.
+(rerunfilecheck)             Checksum: 0C004BD24D940A56F9F06BC21CEAC366;2703.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38018 strings out of 473362
- 704358 string characters out of 5720483
- 1954965 words of memory out of 5000000
- 60557 multiletter control sequences out of 15000+600000
- 596940 words of font info for 72 fonts, out of 8000000 for 9000
+ 38189 strings out of 473362
+ 710225 string characters out of 5720483
+ 1957739 words of memory out of 5000000
+ 60700 multiletter control sequences out of 15000+600000
+ 597281 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,117p,695b,4037s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/kevin/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></home
-/kevin/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></home/kevin/t
-exlive/2024/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on /mnt/dev/Projects/DVIZ-Project/out/report.pdf (5 pages, 11538
-2 bytes).
+ 99i,13n,117p,695b,4037s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/kevin/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb
+></home/kevin/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></home/
+kevin/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></home/kevin/te
+xlive/2024/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on /mnt/dev/Projects/DVIZ-Project/out/report.pdf (11 pages, 6094
+53 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
- 69 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 205 PDF objects out of 1000 (max. 8388607)
+ 167 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 176 words of extra memory for PDF output out of 10000 (max. 10000000)
 

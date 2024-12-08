@@ -18,7 +18,7 @@ st.title("Shodan Data Explorer")
 st.sidebar.header("Upload Excel file if you want to use a different one")
 
 # Define default file path
-default_file_path = 'shodan_data.xlsx'
+default_file_path = 'data/shodan_data_9k.xlsx'
 
 # File uploader in the sidebar
 uploaded_file = st.sidebar.file_uploader("Choose an Excel file", type=["xlsx"])
