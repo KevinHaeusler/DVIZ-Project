@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.5)  10 DEC 2024 12:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.5)  10 DEC 2024 13:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1517,20 +1517,20 @@ l.157 \newpage
 
 [2]
 
-./report.tex:184: LaTeX Error: Environment about undefined.
+./report.tex:188: LaTeX Error: Environment about undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.184 \begin{about}
+l.188 \begin{about}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--209
+Underfull \hbox (badness 10000) in paragraph at lines 205--213
 
  []
 
@@ -1539,16 +1539,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 201--209
 [3]
 LaTeX Info: Symbol \textasciiacute not provided by
             font family ntxtlf in TS1 encoding.
-            Default family used instead on input line 236.
+            Default family used instead on input line 242.
 
 
-./report.tex:239: LaTeX Error: \begin{document} ended by \end{about}.
+./report.tex:245: LaTeX Error: \begin{document} ended by \end{about}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.239 \end{about}
+l.245 \end{about}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1559,26 +1559,26 @@ or  <return>  to continue without it.
 [4{/home/kevin/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.en
 c}]
 
-./report.tex:243: LaTeX Error: Environment motivation undefined.
+./report.tex:249: LaTeX Error: Environment motivation undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.243 \begin{motivation}
+l.249 \begin{motivation}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./report.tex:256: LaTeX Error: \begin{document} ended by \end{motivation}.
+./report.tex:262: LaTeX Error: \begin{document} ended by \end{motivation}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.256 \end{motivation}
+l.262 \end{motivation}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1588,26 +1588,26 @@ or  <return>  to continue without it.
 
 [5]
 
-./report.tex:260: LaTeX Error: Environment research undefined.
+./report.tex:266: LaTeX Error: Environment research undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.260 \begin{research}
+l.266 \begin{research}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./report.tex:282: LaTeX Error: \begin{document} ended by \end{research}.
+./report.tex:288: LaTeX Error: \begin{document} ended by \end{research}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.282 \end{research}
+l.288 \end{research}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1617,13 +1617,13 @@ or  <return>  to continue without it.
 
 [6]
 
-./report.tex:286: LaTeX Error: Environment data undefined.
+./report.tex:292: LaTeX Error: Environment data undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.286 \begin{data}
+l.292 \begin{data}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1634,19 +1634,19 @@ t>
 File: /home/kevin/images/shodan-search-results.png Graphic file (type png)
 <use /home/kevin/images/shodan-search-results.png>
 Package pdftex.def Info: /home/kevin/images/shodan-search-results.png  used on 
-input line 296.
+input line 302.
 (pdftex.def)             Requested size: 455.23882pt x 291.23517pt.
 </home/kevin/images/shodan-download-page.png, id=142, 1862.96pt x 902.37125pt>
 File: /home/kevin/images/shodan-download-page.png Graphic file (type png)
 <use /home/kevin/images/shodan-download-page.png>
 Package pdftex.def Info: /home/kevin/images/shodan-download-page.png  used on i
-nput line 305.
+nput line 311.
 (pdftex.def)             Requested size: 455.22107pt x 220.4977pt.
 </home/kevin/images/downloaded-archive.png, id=143, 1419.3025pt x 605.26125pt>
 File: /home/kevin/images/downloaded-archive.png Graphic file (type png)
 <use /home/kevin/images/downloaded-archive.png>
 Package pdftex.def Info: /home/kevin/images/downloaded-archive.png  used on inp
-ut line 317.
+ut line 323.
 (pdftex.def)             Requested size: 455.24727pt x 194.14009pt.
 
 
@@ -1659,20 +1659,20 @@ wnload-page.png>]
 File: /home/kevin/images/32k-dataset-na-entries.png Graphic file (type png)
 <use /home/kevin/images/32k-dataset-na-entries.png>
 Package pdftex.def Info: /home/kevin/images/32k-dataset-na-entries.png  used on
- input line 331.
+ input line 337.
 (pdftex.def)             Requested size: 315.88255pt x 156.5862pt.
 LaTeX Info: Symbol \textasciiacute not provided by
             font family ntxtlf in TS1 encoding.
-            Default family used instead on input line 332.
+            Default family used instead on input line 338.
 LaTeX Info: Symbol \textasciiacute not provided by
             font family ntxtlf in TS1 encoding.
-            Default family used instead on input line 332.
+            Default family used instead on input line 338.
 </home/kevin/images/9k-dataset-na-entries.png, id=162, 1052.93375pt x 521.95pt>
 
 File: /home/kevin/images/9k-dataset-na-entries.png Graphic file (type png)
 <use /home/kevin/images/9k-dataset-na-entries.png>
 Package pdftex.def Info: /home/kevin/images/9k-dataset-na-entries.png  used on 
-input line 340.
+input line 346.
 (pdftex.def)             Requested size: 315.88255pt x 156.5862pt.
 
 
@@ -1684,44 +1684,42 @@ File: /home/kevin/images/digital-assets-ag-rotkreuz-ch-search.png Graphic file
 (type png)
 <use /home/kevin/images/digital-assets-ag-rotkreuz-ch-search.png>
 Package pdftex.def Info: /home/kevin/images/digital-assets-ag-rotkreuz-ch-searc
-h.png  used on input line 352.
+h.png  used on input line 358.
 (pdftex.def)             Requested size: 356.23363pt x 115.63289pt.
 </home/kevin/images/shodan-digital-assets-ag.png, id=173, 1187.43625pt x 385.44
 pt>
 File: /home/kevin/images/shodan-digital-assets-ag.png Graphic file (type png)
 <use /home/kevin/images/shodan-digital-assets-ag.png>
 Package pdftex.def Info: /home/kevin/images/shodan-digital-assets-ag.png  used 
-on input line 364.
+on input line 370.
 (pdftex.def)             Requested size: 356.23363pt x 115.63289pt.
-</home/kevin/images/port-53-distribution-by-isp.png, id=174, 838.13126pt x 885.
+
+
+[10 </home/kevin/images/digital-assets-ag-rotkreuz-ch-search.png> </home/kevin/
+images/shodan-digital-assets-ag.png>]
+</home/kevin/images/port-53-distribution-by-isp.png, id=183, 838.13126pt x 885.
 3075pt>
 File: /home/kevin/images/port-53-distribution-by-isp.png Graphic file (type png
 )
 <use /home/kevin/images/port-53-distribution-by-isp.png>
 Package pdftex.def Info: /home/kevin/images/port-53-distribution-by-isp.png  us
-ed on input line 392.
+ed on input line 399.
 (pdftex.def)             Requested size: 251.44131pt x 265.5943pt.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-./report.tex:398: LaTeX Error: \begin{document} ended by \end{data}.
+./report.tex:405: LaTeX Error: \begin{document} ended by \end{data}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.398 \end{data}
+l.405 \end{data}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-
-[10 </home/kevin/images/digital-assets-ag-rotkreuz-ch-search.png> </home/kevin/
-images/shodan-digital-assets-ag.png>]
 
 [11 </home/kevin/images/port-53-distribution-by-isp.png>]
 
@@ -1740,17 +1738,17 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 Here is how much of TeX's memory you used:
  38207 strings out of 473362
  710966 string characters out of 5720483
- 1957798 words of memory out of 5000000
+ 1958798 words of memory out of 5000000
  60714 multiletter control sequences out of 15000+600000
  597281 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,13n,117p,695b,4037s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,117p,695b,4037s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/kevin/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb
 ></home/kevin/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></home/
 kevin/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></home/kevin/te
 xlive/2024/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on /mnt/dev/Projects/DVIZ-Project/out/report.pdf (12 pages, 6474
-35 bytes).
+Output written on /mnt/dev/Projects/DVIZ-Project/out/report.pdf (12 pages, 6479
+86 bytes).
 PDF statistics:
  226 PDF objects out of 1000 (max. 8388607)
  185 compressed objects within 2 object streams
