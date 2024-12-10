@@ -3,13 +3,14 @@ LABEL authors="kevin"
 
 WORKDIR /app
 
-# Clone the repository
+
 RUN git clone https://github.com/KevinHaeusler/DVIZ-Project.git .
 
-# Navigate to the repository folder and install dependencies only
-RUN uv pip install -r requirements.txt
+RUN uv pip install \
+    altair>=5.4.1 \
+    pandas>=2.2.3 \
+    streamlit>=1.39.0
 
-# Expose the Streamlit port
 EXPOSE 8501
 
 HEALTHCHECK CMD curl --fail http://localhost:8501/_stcore/health
