@@ -174,6 +174,10 @@ Due to me (Kevin Häusler) being the sole member of this project I have omitted 
 23.11.2024 & 1 & Writing more functions in the code\\ \hline
 08.12.2024 & 1 & Downloading new 32k Dataset from Shodan \\ \hline
 08.12.2024 & 2 & Analysis of the new 32k Dataset \\ \hline
+09.12.2024 & 4 & Code Refactor and Data Analysis \\ \hline
+10.12.2024 & 1 & Update Report, start working on Hosting of Project \\ \hline
+
+
 
 \end{tabular}
 \end{table}
@@ -370,6 +374,30 @@ The ASN lookup confirms that it is part of the Google Cloud Platform. While I do
 they are renting or colocating servers (in this case VPS) in the new CKW Datacenter in Rotkreuz.
 
 To be safe I will use the 9k dataset from 22.10.2024 for this project.
+
+\subsection{Analyzing the Data}
+Now that we have our data we an start analyzing it. First I want to check some general information like:
+- What are the most common ports?
+- What are the most common used Software
+- Are there any weird/interesting findings that stand out?
+
+\newpage
+\subsubsection{Port Distribution}
+A closer look at the Port distribution shows that the main use is web (port 443 and 80) and email services (port 25). There are
+some concerning ports like DNS (53) that are not recommended to be accessible publicly.
+
+This can be exploited by using the exposed DNS servers to DDoS other systems by sending tons of fake DNS responses in a DNS amplification attack.
+
+Thankfully most of the exposed DNS ports are from web hosting companies and datacenters that should know the risks and how to prevent them.
+There are still 19 open DNS Ports from WWZ ISPs that could be residential that are worrisome.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[keepaspectratio,scale=0.3]{/home/kevin/images/port-53-distribution-by-isp}
+    \caption{Port 53 Distribution by ISP}
+    \label{fig:port-53-distribution-by-isp}
+\end{figure}
+
 
 \end{data}
 \newpage

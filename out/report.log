@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.5)  8 DEC 2024 10:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.5)  10 DEC 2024 12:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1629,20 +1629,20 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-</home/kevin/images/shodan-search-results.png, id=130, 1863.96375pt x 1192.455p
+</home/kevin/images/shodan-search-results.png, id=140, 1863.96375pt x 1192.455p
 t>
 File: /home/kevin/images/shodan-search-results.png Graphic file (type png)
 <use /home/kevin/images/shodan-search-results.png>
 Package pdftex.def Info: /home/kevin/images/shodan-search-results.png  used on 
 input line 296.
 (pdftex.def)             Requested size: 455.23882pt x 291.23517pt.
-</home/kevin/images/shodan-download-page.png, id=132, 1862.96pt x 902.37125pt>
+</home/kevin/images/shodan-download-page.png, id=142, 1862.96pt x 902.37125pt>
 File: /home/kevin/images/shodan-download-page.png Graphic file (type png)
 <use /home/kevin/images/shodan-download-page.png>
 Package pdftex.def Info: /home/kevin/images/shodan-download-page.png  used on i
 nput line 305.
 (pdftex.def)             Requested size: 455.22107pt x 220.4977pt.
-</home/kevin/images/downloaded-archive.png, id=133, 1419.3025pt x 605.26125pt>
+</home/kevin/images/downloaded-archive.png, id=143, 1419.3025pt x 605.26125pt>
 File: /home/kevin/images/downloaded-archive.png Graphic file (type png)
 <use /home/kevin/images/downloaded-archive.png>
 Package pdftex.def Info: /home/kevin/images/downloaded-archive.png  used on inp
@@ -1654,7 +1654,7 @@ ut line 317.
 wnload-page.png>]
 
 [8 </home/kevin/images/downloaded-archive.png>]
-</home/kevin/images/32k-dataset-na-entries.png, id=151, 1052.93375pt x 521.95pt
+</home/kevin/images/32k-dataset-na-entries.png, id=161, 1052.93375pt x 521.95pt
 >
 File: /home/kevin/images/32k-dataset-na-entries.png Graphic file (type png)
 <use /home/kevin/images/32k-dataset-na-entries.png>
@@ -1667,7 +1667,7 @@ LaTeX Info: Symbol \textasciiacute not provided by
 LaTeX Info: Symbol \textasciiacute not provided by
             font family ntxtlf in TS1 encoding.
             Default family used instead on input line 332.
-</home/kevin/images/9k-dataset-na-entries.png, id=152, 1052.93375pt x 521.95pt>
+</home/kevin/images/9k-dataset-na-entries.png, id=162, 1052.93375pt x 521.95pt>
 
 File: /home/kevin/images/9k-dataset-na-entries.png Graphic file (type png)
 <use /home/kevin/images/9k-dataset-na-entries.png>
@@ -1678,7 +1678,7 @@ input line 340.
 
 [9 </home/kevin/images/32k-dataset-na-entries.png> </home/kevin/images/9k-datas
 et-na-entries.png>]
-</home/kevin/images/digital-assets-ag-rotkreuz-ch-search.png, id=162, 1187.4362
+</home/kevin/images/digital-assets-ag-rotkreuz-ch-search.png, id=172, 1187.4362
 5pt x 385.44pt>
 File: /home/kevin/images/digital-assets-ag-rotkreuz-ch-search.png Graphic file 
 (type png)
@@ -1686,22 +1686,33 @@ File: /home/kevin/images/digital-assets-ag-rotkreuz-ch-search.png Graphic file
 Package pdftex.def Info: /home/kevin/images/digital-assets-ag-rotkreuz-ch-searc
 h.png  used on input line 352.
 (pdftex.def)             Requested size: 356.23363pt x 115.63289pt.
-</home/kevin/images/shodan-digital-assets-ag.png, id=163, 1187.43625pt x 385.44
+</home/kevin/images/shodan-digital-assets-ag.png, id=173, 1187.43625pt x 385.44
 pt>
 File: /home/kevin/images/shodan-digital-assets-ag.png Graphic file (type png)
 <use /home/kevin/images/shodan-digital-assets-ag.png>
 Package pdftex.def Info: /home/kevin/images/shodan-digital-assets-ag.png  used 
 on input line 364.
 (pdftex.def)             Requested size: 356.23363pt x 115.63289pt.
+</home/kevin/images/port-53-distribution-by-isp.png, id=174, 838.13126pt x 885.
+3075pt>
+File: /home/kevin/images/port-53-distribution-by-isp.png Graphic file (type png
+)
+<use /home/kevin/images/port-53-distribution-by-isp.png>
+Package pdftex.def Info: /home/kevin/images/port-53-distribution-by-isp.png  us
+ed on input line 392.
+(pdftex.def)             Requested size: 251.44131pt x 265.5943pt.
 
 
-./report.tex:375: LaTeX Error: \begin{document} ended by \end{data}.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+./report.tex:398: LaTeX Error: \begin{document} ended by \end{data}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.375 \end{data}
+l.398 \end{data}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1712,6 +1723,8 @@ or  <return>  to continue without it.
 [10 </home/kevin/images/digital-assets-ag-rotkreuz-ch-search.png> </home/kevin/
 images/shodan-digital-assets-ag.png>]
 
+[11 </home/kevin/images/port-53-distribution-by-isp.png>]
+
 enddocument/afterlastpage: lastpage setting LastPage.
 (/mnt/dev/Projects/DVIZ-Project/out/report.aux)
  ***********
@@ -1719,16 +1732,16 @@ LaTeX2e <2024-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 0C004BD24D940A56F9F06BC21CEAC366;2703.
+(rerunfilecheck)             Checksum: FDD04D56A478D0469762B9DA674B37B1;3069.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38189 strings out of 473362
- 710225 string characters out of 5720483
- 1957739 words of memory out of 5000000
- 60700 multiletter control sequences out of 15000+600000
+ 38207 strings out of 473362
+ 710966 string characters out of 5720483
+ 1957798 words of memory out of 5000000
+ 60714 multiletter control sequences out of 15000+600000
  597281 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,13n,117p,695b,4037s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1736,11 +1749,11 @@ Here is how much of TeX's memory you used:
 ></home/kevin/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></home/
 kevin/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></home/kevin/te
 xlive/2024/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on /mnt/dev/Projects/DVIZ-Project/out/report.pdf (11 pages, 6094
-53 bytes).
+Output written on /mnt/dev/Projects/DVIZ-Project/out/report.pdf (12 pages, 6474
+35 bytes).
 PDF statistics:
- 205 PDF objects out of 1000 (max. 8388607)
- 167 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
- 176 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 226 PDF objects out of 1000 (max. 8388607)
+ 185 compressed objects within 2 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 197 words of extra memory for PDF output out of 10000 (max. 10000000)
 

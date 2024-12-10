@@ -71,10 +71,10 @@ def display(raw_data):
     )
 
     st.altair_chart(chart_top_10)
-    st.markdown("Looking at the 10 most used products we can see that the top 3 are Postfix SMTPD (for sending e-mail) "
-                "nginx (for hosting websites) and OpenSSH (for access to the system).  "
-                ""
-                "This is an expected distribution of products.")
+    st.markdown('''Looking at the 10 most used products we can see that the top 3 are Postfix SMTPD (for sending e-mail) nginx (for hosting websites) and OpenSSH (for access to the system). 
+    
+    
+                This is an expected distribution of products. Interesting is that there are 62 Chromecasts accessible ''')
 
 data = st.session_state.get('data', None)
 if data:

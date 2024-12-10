@@ -1,0 +1,23 @@
+[[pages]]
+path = "DVIZ.py"
+name = "Home"
+
+[[pages]]
+name = "Ports"
+is_section = true
+
+[[pages]]
+path = "pages/ports/port_distribution.py"
+name = "Port Distribution"
+
+[[pages]]
+path = "pages/ports/port_53.py"
+name = "ISP Counts for Port 53"
+
+[[pages]]
+name = "Products"
+is_section = true
+
+[[pages]]
+path = "pages/products/product_info.py"
+name = "Product Info"
