@@ -211,17 +211,19 @@ Docker \\
 Github \\
 LaTeX \\
 
-I have setup the project in pycharm with UV so it is easier to distribute, there is also a docker file in case you have
-docker installed to easily run this project without having to create your own environment.
+I have setup the project in pycharm with UV because I wanted to try it out, there is also a docker file in case you have
+docker installed to easily run this project without having to create your own environment. The requirements are only a few
+packages so they can also just be installed with the requirements.txt file.
 
 For the main library I have decided to use Streamlit, I have tried it out in the past but never for a real project so I
 wanted to get more indepth experience with it. It has a great documentation and it lets me easily create dataframes and
-charts for this project.
+charts for this project. It also needs the Altair and openpyxl packages to work.
 
-The whole report is also written in the PyCharm IDE with LaTeX and uploaded to the Github repository. It is written in the
+The whole report is written in the PyCharm IDE with LaTeX and uploaded to the Github repository. It is written in the
 report.tex file and compiled to report.pdf.
 
-This setup is also useful in case I need to work from different machines.
+This setup is very useful in case I need to work from different machines. Writing the code and the report in the same
+environment is something I really like.
 
 \subsection{Shodan}
 
@@ -373,7 +375,8 @@ When we look at the company itself we can see that they have 77'280 servers in G
 The ASN lookup confirms that it is part of the Google Cloud Platform. While I do not have any confirmation it is highly likely that
 they are renting or colocating servers (in this case VPS) in the new CKW Datacenter in Rotkreuz.
 
-To be safe I will use the 9k dataset from 22.10.2024 for this project.
+To be safe I will use the 9k dataset from 22.10.2024 for this project. Because if I were to use the 32k Dataset I would have
+way too many empty datapoints that I cant write about.
 
 \subsection{Analyzing the Data}
 Now that we have our data we an start analyzing it. First I want to check some general information like:
