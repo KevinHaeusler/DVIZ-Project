@@ -4,6 +4,9 @@ st.set_page_config(page_title="Shodan Data Explorer")
 
 
 pages = {
+    "About": [
+        st.Page("pages/about/overview.py", title="Overview"),
+    ],
     "Ports": [
         st.Page("pages/ports/port_distribution.py", title="Port Distribution"),
         st.Page("pages/ports/port_53.py", title="Port 53"),

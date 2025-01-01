@@ -12,7 +12,7 @@
 \contentsline {subsection}{\numberline {4.3}Using Shodan to hunt down Ransomware Groups}{6}{subsection.4.3}%
 \contentsline {section}{\numberline {5}Data}{7}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Getting the Data}{7}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Preparing the Data}{8}{subsection.5.2}%
-\contentsline {subsubsection}{\numberline {5.2.1}Unexpected Issue}{9}{subsubsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.3}Analyzing the Data}{10}{subsection.5.3}%
-\contentsline {subsubsection}{\numberline {5.3.1}Port Distribution}{11}{subsubsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.2}Preparing the Data}{7}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Unexpected Issue}{8}{subsubsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.3}Analyzing the Data}{9}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Port Distribution}{10}{subsubsection.5.3.1}%
