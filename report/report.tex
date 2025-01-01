@@ -225,7 +225,9 @@ report.tex file and compiled to report.pdf.
 This setup is very useful in case I need to work from different machines. Writing the code and the report in the same
 environment is something I really like.
 
-\subsection{Shodan}
+\newpage
+
+\subsubsection{Shodan}
 
 Shodan.io or more commonly referred as just Shodan is a search engine tool used to provide a more comprehensive view of
 the internet, more specifically it crawls, scans and collects information from a wide range of devices that are public to
@@ -242,7 +244,17 @@ I was lucky enough to get a "lifetime" membership for 5 USD, this gives me acces
 contains 9000 datapoints. For this project I decided to sign up for a freelancer membership so I get 10´000 query credits
 which I can use to get the entire dataset of Rotkreuz and maybe implement an interactive tool as well with the Shodan API.
 
+\subsubsection{Streamlit}
+This is not my first time trying out streamlit but it is my first time actually trying to create a complete project with streamlit.
+
+I like that it is relatively easy to get started with and how good their documentation is. I have not done any special formatting for
+the charts and datatables though because the way my data is displayed does not require it.
 \end{about}
+
+\subsubsection{LaTeX}
+I have been using Linux for quite a while so I do not have easy access to the office suite anymore. I also have used LaTeX in the
+past to create my math cheatsheets/documentation and I really like the way it works. A big plus is that I can set it up to work in my
+IDE which also lets me store everything in the same Repository as my code.
 \newpage
 
 %%------------------------------- motivation ---------------------------
@@ -258,6 +270,17 @@ would have liked due to other commitments.
 Another relevant motivation would be cyber security. This semester I am taking the Introduction to Cyber Security class
 which has been surprisingly fun and interesting. While this project does not equal to a real cyber security assessment I
 do want to try my best to create something that is informative and useful in that regard.
+
+\subsubsection{Homelab}
+The project itself is also motivated by my own homelab. I have multiple physical and virtual servers at home that run many
+different services that are private or open to the public. This is why I am also interested to see how others fare in this aspect.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[keepaspectratio,scale=0.3]{/mnt/dev/Projects/DVIZ-Project/images/messy-picture-of-part-of-my-homelab}
+    \caption{Messy Picture of part of my homelab}
+    \label{fig:messy-picture-of-part-of-my-homelab}
+\end{figure}
 
 \end{motivation}
 \newpage
@@ -371,7 +394,7 @@ When we look at the company itself we can see that they have 77'280 servers in G
     \caption{Shodan Digital Assets AG}
     \label{fig:shodan-digital-assets-ag}
 \end{figure}
-
+s
 The ASN lookup confirms that it is part of the Google Cloud Platform. While I do not have any confirmation it is highly likely that
 they are renting or colocating servers (in this case VPS) in the new CKW Datacenter in Rotkreuz.
 
@@ -379,40 +402,88 @@ To be safe I will use the 9k dataset from 22.10.2024 for this project. Because i
 way too many empty datapoints that I cant write about.
 
 \subsection{Analyzing the Data}
-Now that we have our data we an start analyzing it. First I want to check some general information like: \\
-- What are the most common ports?\\
-- What are the most common used Software?\\
+Now that we have our data we can start analyzing it. First I want to check some general information like: \\
+- What are the most commonly used Software?\\
+- What are the most commonly ports?\\
 - Are there any weird/interesting findings that stand out?\\
 
 \newpage
-\subsubsection{Product}
+\subsubsection{What are the most commonly used Software?}
 \begin{figure}[!h]
     \centering
-    \includegraphics[keepasprectratio,scale=0.3]{/mnt/dev/Projects/DVIZ-Project/images/product-piechart}
+    \includegraphics[keepasprectratio,scale=0.5]{/mnt/dev/Projects/DVIZ-Project/images/product-piechart}
     \caption{Product Pie Chart}
     \label{fig:product-piechart}
 \end{figure}
 
-A simple Pie Chart that regexes things like web/nginx/apache/httpd for web and other keywords for other categories lets us see
-which Products are commonly used. Mail and Web are obviously used the most because they have to be publicly accessible to function.
+A simple Pie Chart that was created by grouping regex searches like web/nginx/apache/httpd for web and other keywords for other categories lets us see
+which Products are commonly used. From this Pie Chart we can see that eMail and Webservices are used the most, this makes a lot of sense
+because they have to be publicly accessible to function correctly.\\
 
-\subsubsection{Port Distribution}
-A closer look at the Port distribution shows that the main use is web (port 443 and 80) and email services (port 25). There are
-some concerning ports like DNS (53) that are not recommended to be accessible publicly.
+We can also see various Services ("dns", "snmp", "ssh", "remote desktop protocol", "rdp") and databases being publicly accessible.
+Depending on the service and the way it has been made accessible this can be a serious security risk. At our company we do offer external RDP
+but only via a remote desktop gateway with ssl termination. This is because raw RDP connections are very insecure and can be exploited.
 
-This can be exploited by using the exposed DNS servers to DDoS other systems by sending tons of fake DNS responses in a DNS amplification attack.
+\newpage
+
+\subsubsection{What are the most commonly used ports?}
+A closer look at the Port distribution shows that the main use is for web- (port 443 and 80) and email services (port 25). There are
+some concerning ports like DNS (53) that are not recommended to be accessible publicly in most cases.
+
+This open DNS port can be exploited by using the exposed DNS servers to DDoS other systems by sending tons of fake DNS responses in a DNS amplification attack.
 
 Thankfully most of the exposed DNS ports are from web hosting companies and datacenters that should know the risks and how to prevent them.
 There are still 19 open DNS Ports from WWZ ISPs that could be residential that are worrisome.
 
 \begin{figure}[!h]
     \centering
-    \includegraphics[keepaspectratio,scale=0.3]{/mnt/dev/Projects/DVIZ-Project/images/port-53-distribution-by-isp}
+    \includegraphics[keepaspectratio,scale=0.5]{/mnt/dev/Projects/DVIZ-Project/images/port-53-distribution-by-isp}
     \caption{Port 53 Distribution by ISP}
     \label{fig:port-53-distribution-by-isp}
 \end{figure}
 
+\newpage
+\subsubsection{Fake Security Attempts}
+Many (veteran) people in the industry are quick to recommend changing the associated Port of a service to an arbitrary port
+to make it more "secure". For example mapping SSH Port 22 to 12345. This is actually a very useless advice due to the way scan services work.
 
+They scan every single port to see if they receive an answer and map this to their database.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[keepaspectratio,scale=0.5]{/mnt/dev/Projects/DVIZ-Project/images/ssh-ports-that-are-remapped}
+    \caption{SSH Ports that are remapped}
+    \label{fig:ssh-ports-that-are-remapped}
+\end{figure}
+
+Interestingly port 2121 is the most used one, I assume it is a common example port in guides that tell you to remap the ssh port.
+
+\subsubsection{Are there any weird/interesting findings that stand out?}
+Personally I find it fascinating how many IOT Devices (Webcams/NAS/Chromecast/TVs/) are publicly accessible. In most cases you
+are kinda forced to do so by the manufacturer for the device to work at all.
+
+This is in my opinion always an easy way to create a security risk that is difficult to mitigate. The easiest way to mitigate this
+would be to not use them at all and find alternatives that work only locally and if you do need to access them from outside your
+network only do so via a VPN or an Identity and Access Management Gateway (Authelia/Keycloak/Okta).
 \end{data}
 \newpage
+
+\begin{Conclusions}
+\subsection{Conclusions}
+\subsubsection{What did I learn?}
+As someone that has a huge homelab with services that I try to secure as best as possible I learned that in comparison my
+homelab security is very good. I am not a security expert nor did I try to dig deeper into security risks, because I think even
+trying to exploit them for this project would be illegal, but from what Ive seen the way technology has advanced and the "make it work"
+mentality from what I gathered in my work and web related circles, it is much more common to have security as an afterthought until
+you get a serious attack on your network/infrastructure.
+
+
+In regards to the python/streamlit programming part I learned a bit more how to better structure the code and the results. At the beginning
+I was not entirely sure what direction this project should take but the discussion and feedback helped me visualise it a bit better.
+
+
+At the end of the project I forgot why I was using UV exactly, I had to reinstall my computer and just redid it with VENV and requirements.txt
+I do feel I should try to learn UV better in the future. Also I should try to integrate a linter/formatter as well I think (currently working with whatever PyCharm suggests).
+
+\end{Conclusions}
 \end{document}

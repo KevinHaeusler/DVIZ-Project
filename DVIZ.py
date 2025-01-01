@@ -10,6 +10,7 @@ pages = {
     "Ports": [
         st.Page("pages/ports/port_distribution.py", title="Port Distribution"),
         st.Page("pages/ports/port_53.py", title="Port 53"),
+        st.Page("pages/ports/port_ssh.py", title="Fake Port Mapping Security Example"),
     ],
     "Products": [
         st.Page("pages/products/product_info.py", title="Product Info"),

@@ -14,7 +14,7 @@ def categorize_products(raw_data):
         },
         "Services": {
             "ports": [53],
-            "keywords": ["dns", "snmp", "ssh", "remote desktop protocol"],
+            "keywords": ["dns", "snmp", "ssh", "remote desktop protocol", "rdp"],
         },
         "Databases": {
             "ports": [],

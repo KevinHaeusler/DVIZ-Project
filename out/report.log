@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.25)  1 JAN 2025 08:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.25)  1 JAN 2025 14:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1539,16 +1539,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--213
 [3]
 LaTeX Info: Symbol \textasciiacute not provided by
             font family ntxtlf in TS1 encoding.
-            Default family used instead on input line 242.
+            Default family used instead on input line 244.
 
 
-./report.tex:245: LaTeX Error: \begin{document} ended by \end{about}.
+./report.tex:252: LaTeX Error: \begin{document} ended by \end{about}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.245 \end{about}
+l.252 \end{about}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1559,26 +1559,35 @@ or  <return>  to continue without it.
 [4{/home/kevin/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.en
 c}]
 
-./report.tex:249: LaTeX Error: Environment motivation undefined.
+./report.tex:261: LaTeX Error: Environment motivation undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.249 \begin{motivation}
+l.261 \begin{motivation}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+</mnt/dev/Projects/DVIZ-Project/images/messy-picture-of-part-of-my-homelab.png,
+ id=170, 680.5425pt x 906.38625pt>
+File: /mnt/dev/Projects/DVIZ-Project/images/messy-picture-of-part-of-my-homelab
+.png Graphic file (type png)
+<use /mnt/dev/Projects/DVIZ-Project/images/messy-picture-of-part-of-my-homelab.
+png>
+Package pdftex.def Info: /mnt/dev/Projects/DVIZ-Project/images/messy-picture-of
+-part-of-my-homelab.png  used on input line 280.
+(pdftex.def)             Requested size: 204.16432pt x 271.91797pt.
 
-./report.tex:262: LaTeX Error: \begin{document} ended by \end{motivation}.
+./report.tex:285: LaTeX Error: \begin{document} ended by \end{motivation}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.262 \end{motivation}
+l.285 \end{motivation}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1586,28 +1595,29 @@ or  <return>  to continue without it.
 
 
 
-[5]
+[5 </mnt/dev/Projects/DVIZ-Project/images/messy-picture-of-part-of-my-homelab.p
+ng>]
 
-./report.tex:266: LaTeX Error: Environment research undefined.
+./report.tex:289: LaTeX Error: Environment research undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.266 \begin{research}
+l.289 \begin{research}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./report.tex:288: LaTeX Error: \begin{document} ended by \end{research}.
+./report.tex:311: LaTeX Error: \begin{document} ended by \end{research}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.288 \end{research}
+l.311 \end{research}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1617,41 +1627,41 @@ or  <return>  to continue without it.
 
 [6]
 
-./report.tex:292: LaTeX Error: Environment data undefined.
+./report.tex:315: LaTeX Error: Environment data undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.292 \begin{data}
+l.315 \begin{data}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-</mnt/dev/Projects/DVIZ-Project/images/shodan-search-results.png, id=145, 1328.
+</mnt/dev/Projects/DVIZ-Project/images/shodan-search-results.png, id=185, 1328.
 965pt x 861.2175pt>
 File: /mnt/dev/Projects/DVIZ-Project/images/shodan-search-results.png Graphic f
 ile (type png)
 <use /mnt/dev/Projects/DVIZ-Project/images/shodan-search-results.png>
 Package pdftex.def Info: /mnt/dev/Projects/DVIZ-Project/images/shodan-search-re
-sults.png  used on input line 302.
+sults.png  used on input line 325.
 (pdftex.def)             Requested size: 455.24889pt x 295.01778pt.
-</mnt/dev/Projects/DVIZ-Project/images/shodan-download-page.png, id=147, 1316.9
+</mnt/dev/Projects/DVIZ-Project/images/shodan-download-page.png, id=186, 1316.9
 2pt x 624.3325pt>
 File: /mnt/dev/Projects/DVIZ-Project/images/shodan-download-page.png Graphic fi
 le (type png)
 <use /mnt/dev/Projects/DVIZ-Project/images/shodan-download-page.png>
 Package pdftex.def Info: /mnt/dev/Projects/DVIZ-Project/images/shodan-download-
-page.png  used on input line 311.
+page.png  used on input line 334.
 (pdftex.def)             Requested size: 455.24214pt x 215.82364pt.
-</mnt/dev/Projects/DVIZ-Project/images/downloaded-archive.png, id=148, 1322.942
+</mnt/dev/Projects/DVIZ-Project/images/downloaded-archive.png, id=187, 1322.942
 5pt x 562.1pt>
 File: /mnt/dev/Projects/DVIZ-Project/images/downloaded-archive.png Graphic file
  (type png)
 <use /mnt/dev/Projects/DVIZ-Project/images/downloaded-archive.png>
 Package pdftex.def Info: /mnt/dev/Projects/DVIZ-Project/images/downloaded-archi
-ve.png  used on input line 323.
+ve.png  used on input line 346.
 (pdftex.def)             Requested size: 455.22466pt x 193.41867pt.
 
 
@@ -1659,51 +1669,51 @@ ve.png  used on input line 323.
 Projects/DVIZ-Project/images/shodan-download-page.png>]
 
 [8 </mnt/dev/Projects/DVIZ-Project/images/downloaded-archive.png>]
-</mnt/dev/Projects/DVIZ-Project/images/32k-dataset-na-entries.png, id=166, 914.
+</mnt/dev/Projects/DVIZ-Project/images/32k-dataset-na-entries.png, id=204, 914.
 41624pt x 456.70625pt>
 File: /mnt/dev/Projects/DVIZ-Project/images/32k-dataset-na-entries.png Graphic 
 file (type png)
 <use /mnt/dev/Projects/DVIZ-Project/images/32k-dataset-na-entries.png>
 Package pdftex.def Info: /mnt/dev/Projects/DVIZ-Project/images/32k-dataset-na-e
-ntries.png  used on input line 337.
+ntries.png  used on input line 360.
 (pdftex.def)             Requested size: 274.32698pt x 137.01292pt.
 LaTeX Info: Symbol \textasciiacute not provided by
             font family ntxtlf in TS1 encoding.
-            Default family used instead on input line 338.
+            Default family used instead on input line 361.
 LaTeX Info: Symbol \textasciiacute not provided by
             font family ntxtlf in TS1 encoding.
-            Default family used instead on input line 338.
-</mnt/dev/Projects/DVIZ-Project/images/9k-dataset-na-entries.png, id=167, 920.4
+            Default family used instead on input line 361.
+</mnt/dev/Projects/DVIZ-Project/images/9k-dataset-na-entries.png, id=205, 920.4
 3875pt x 454.69875pt>
 File: /mnt/dev/Projects/DVIZ-Project/images/9k-dataset-na-entries.png Graphic f
 ile (type png)
 <use /mnt/dev/Projects/DVIZ-Project/images/9k-dataset-na-entries.png>
 Package pdftex.def Info: /mnt/dev/Projects/DVIZ-Project/images/9k-dataset-na-en
-tries.png  used on input line 346.
+tries.png  used on input line 369.
 (pdftex.def)             Requested size: 276.13376pt x 136.41068pt.
 
 
 [9 </mnt/dev/Projects/DVIZ-Project/images/32k-dataset-na-entries.png> </mnt/dev
 /Projects/DVIZ-Project/images/9k-dataset-na-entries.png>]
 </mnt/dev/Projects/DVIZ-Project/images/digital-assets-ag-rotkreuz-ch-search.png
-, id=177, 1053.9375pt x 355.3275pt>
+, id=215, 1053.9375pt x 355.3275pt>
 File: /mnt/dev/Projects/DVIZ-Project/images/digital-assets-ag-rotkreuz-ch-searc
 h.png Graphic file (type png)
 <use /mnt/dev/Projects/DVIZ-Project/images/digital-assets-ag-rotkreuz-ch-search
 .png>
 Package pdftex.def Info: /mnt/dev/Projects/DVIZ-Project/images/digital-assets-a
-g-rotkreuz-ch-search.png  used on input line 358.
+g-rotkreuz-ch-search.png  used on input line 381.
 (pdftex.def)             Requested size: 316.18369pt x 106.59906pt.
-</mnt/dev/Projects/DVIZ-Project/images/shodan-digital-assets-ag.png, id=178, 10
+</mnt/dev/Projects/DVIZ-Project/images/shodan-digital-assets-ag.png, id=216, 10
 53.9375pt x 355.3275pt>
 File: /mnt/dev/Projects/DVIZ-Project/images/shodan-digital-assets-ag.png Graphi
 c file (type png)
 <use /mnt/dev/Projects/DVIZ-Project/images/shodan-digital-assets-ag.png>
 Package pdftex.def Info: /mnt/dev/Projects/DVIZ-Project/images/shodan-digital-a
-ssets-ag.png  used on input line 370.
+ssets-ag.png  used on input line 393.
 (pdftex.def)             Requested size: 316.18369pt x 106.59906pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--386
+Underfull \hbox (badness 10000) in paragraph at lines 405--409
 
  []
 
@@ -1712,42 +1722,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 382--386
 [10 </mnt/dev/Projects/DVIZ-Project/images/digital-assets-ag-rotkreuz-ch-search
 .png> </mnt/dev/Projects/DVIZ-Project/images/shodan-digital-assets-ag.png>]
 
-./report.tex:391: Package xkeyval Error: `keepasprectratio' undefined in famili
+./report.tex:414: Package xkeyval Error: `keepasprectratio' undefined in famili
 es `Gin'.
 
 See the xkeyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.391 ...cts/DVIZ-Project/images/product-piechart}
+l.414 ...cts/DVIZ-Project/images/product-piechart}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-</mnt/dev/Projects/DVIZ-Project/images/product-piechart.png, id=188, 700.6175pt
+</mnt/dev/Projects/DVIZ-Project/images/product-piechart.png, id=226, 700.6175pt
  x 418.56375pt>
 File: /mnt/dev/Projects/DVIZ-Project/images/product-piechart.png Graphic file (
 type png)
 <use /mnt/dev/Projects/DVIZ-Project/images/product-piechart.png>
 Package pdftex.def Info: /mnt/dev/Projects/DVIZ-Project/images/product-piechart
-.png  used on input line 391.
-(pdftex.def)             Requested size: 210.18686pt x 125.57008pt.
-</mnt/dev/Projects/DVIZ-Project/images/port-53-distribution-by-isp.png, id=189,
+.png  used on input line 414.
+(pdftex.def)             Requested size: 350.30789pt x 209.28136pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--422
+
+ []
+
+
+
+[11 </mnt/dev/Projects/DVIZ-Project/images/product-piechart.png>]
+</mnt/dev/Projects/DVIZ-Project/images/port-53-distribution-by-isp.png, id=234,
  733.74126pt x 774.895pt>
 File: /mnt/dev/Projects/DVIZ-Project/images/port-53-distribution-by-isp.png Gra
 phic file (type png)
 <use /mnt/dev/Projects/DVIZ-Project/images/port-53-distribution-by-isp.png>
 Package pdftex.def Info: /mnt/dev/Projects/DVIZ-Project/images/port-53-distribu
-tion-by-isp.png  used on input line 410.
-(pdftex.def)             Requested size: 220.12407pt x 232.47029pt.
+tion-by-isp.png  used on input line 440.
+(pdftex.def)             Requested size: 366.86974pt x 387.44655pt.
 
-./report.tex:416: LaTeX Error: \begin{document} ended by \end{data}.
+
+[12 </mnt/dev/Projects/DVIZ-Project/images/port-53-distribution-by-isp.png>]
+</mnt/dev/Projects/DVIZ-Project/images/ssh-ports-that-are-remapped.png, id=243,
+ 845.1575pt x 715.67375pt>
+File: /mnt/dev/Projects/DVIZ-Project/images/ssh-ports-that-are-remapped.png Gra
+phic file (type png)
+<use /mnt/dev/Projects/DVIZ-Project/images/ssh-ports-that-are-remapped.png>
+Package pdftex.def Info: /mnt/dev/Projects/DVIZ-Project/images/ssh-ports-that-a
+re-remapped.png  used on input line 454.
+(pdftex.def)             Requested size: 422.57771pt x 357.836pt.
+
+
+./report.tex:468: LaTeX Error: \begin{document} ended by \end{data}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.416 \end{data}
+l.468 \end{data}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1755,9 +1785,36 @@ or  <return>  to continue without it.
 
 
 
-[11 </mnt/dev/Projects/DVIZ-Project/images/product-piechart.png> </mnt/dev/Proj
-ects/DVIZ-Project/images/port-53-distribution-by-isp.png>]
+[13 </mnt/dev/Projects/DVIZ-Project/images/ssh-ports-that-are-remapped.png>]
 
+./report.tex:471: LaTeX Error: Environment Conclusions undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.471 \begin{Conclusions}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./report.tex:488: LaTeX Error: \begin{document} ended by \end{Conclusions}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.488 \end{Conclusions}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+
+[14] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (/mnt/dev/Projects/DVIZ-Project/out/report.aux)
  ***********
@@ -1765,16 +1822,16 @@ LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: C7580855A2D81EE21C4B54D2B453B62C;3205.
+(rerunfilecheck)             Checksum: 534DF0382D9303CEA26DC48F33541046;4891.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38272 strings out of 473254
- 715020 string characters out of 5717448
- 1960360 words of memory out of 5000000
- 60877 multiletter control sequences out of 15000+600000
+ 38318 strings out of 473254
+ 717243 string characters out of 5717448
+ 1962486 words of memory out of 5000000
+ 60911 multiletter control sequences out of 15000+600000
  597281 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,117p,695b,4037s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1782,11 +1839,11 @@ Here is how much of TeX's memory you used:
 ></home/kevin/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></home/
 kevin/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></home/kevin/te
 xlive/2024/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on /mnt/dev/Projects/DVIZ-Project/out/report.pdf (12 pages, 6480
-17 bytes).
+Output written on /mnt/dev/Projects/DVIZ-Project/out/report.pdf (15 pages, 1818
+773 bytes).
 PDF statistics:
- 234 PDF objects out of 1000 (max. 8388607)
- 191 compressed objects within 2 object streams
- 42 named destinations out of 1000 (max. 500000)
- 210 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 294 PDF objects out of 1000 (max. 8388607)
+ 243 compressed objects within 3 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 276 words of extra memory for PDF output out of 10000 (max. 10000000)
 
