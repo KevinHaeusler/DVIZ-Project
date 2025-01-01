@@ -299,7 +299,7 @@ This is done with their search engine tool on https://www.shodan.io/search?query
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{/home/kevin/images/shodan-search-results}
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{/mnt/dev/Projects/DVIZ-Project/images/shodan-search-results}
     \caption{Shodan Search Results for Rotkreuz CH}
     \label{fig:shodan-search-results}
 \end{figure}
@@ -308,8 +308,8 @@ Here we can see 32'147 results which I downloaded.
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{/home/kevin/images/shodan-download-page}
-    \caption{Downlaoding the search results}
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{/mnt/dev/Projects/DVIZ-Project/images/shodan-download-page}
+    \caption{Downloading the search results}
     \label{fig:shodan-download-page}
 \end{figure}
 
@@ -320,7 +320,7 @@ The download returns a *.json.gz archive which I have renamed to shodan\textbf{\
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{/home/kevin/images/downloaded-archive}
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{/mnt/dev/Projects/DVIZ-Project/images/downloaded-archive}
     \caption{The Downloaded Archive}
     \label{fig:downloaded-archive}https://www.shodan.io/search?query=country%3A%22CH%22+city%3A%22rotkreuz%22+org%3A%22Digital+Assets+AG%22&page=3
 \end{figure}
@@ -334,7 +334,7 @@ But what is this? We suddenly have a lot  (27'768) of N/A entries in our dataset
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[keepaspectratio,scale=0.3]{/home/kevin/images/32k-dataset-na-entries}
+    \includegraphics[keepaspectratio,scale=0.3]{/mnt/dev/Projects/DVIZ-Project/images/32k-dataset-na-entries}
     \caption{27´000 N/A with the 32k Dataset}
     \label{fig:32k-dataset-na-entries}
 \end{figure}
@@ -343,7 +343,7 @@ When I compare this with the 9k Dataset that I downloaded on 22.10.2024 we only 
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[keepaspectratio,scale=0.3]{/home/kevin/images/9k-dataset-na-entries}
+    \includegraphics[keepaspectratio,scale=0.3]{/mnt/dev/Projects/DVIZ-Project/images/9k-dataset-na-entries}
     \caption{Only 4'643 N/A with the 9k Dataset}
     \label{fig:9k-dataset-na-entries}
 \end{figure}
@@ -355,7 +355,7 @@ while they have a lot of open ports they do not return any data.
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[keepaspectratio,scale=0.3]{/home/kevin/images/digital-assets-ag-rotkreuz-ch-search}
+    \includegraphics[keepaspectratio,scale=0.3]{/mnt/dev/Projects/DVIZ-Project/images/digital-assets-ag-rotkreuz-ch-search}
     \caption{Digital Assets AG Rotkreuz CH Search}
     \label{fig:digital-assets-ag-rotkreuz-ch-search}
 \end{figure}
@@ -367,7 +367,7 @@ When we look at the company itself we can see that they have 77'280 servers in G
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[keepaspectratio,scale=0.3]{/home/kevin/images/shodan-digital-assets-ag}
+    \includegraphics[keepaspectratio,scale=0.3]{/mnt/dev/Projects/DVIZ-Project/images/shodan-digital-assets-ag}
     \caption{Shodan Digital Assets AG}
     \label{fig:shodan-digital-assets-ag}
 \end{figure}
@@ -379,12 +379,23 @@ To be safe I will use the 9k dataset from 22.10.2024 for this project. Because i
 way too many empty datapoints that I cant write about.
 
 \subsection{Analyzing the Data}
-Now that we have our data we an start analyzing it. First I want to check some general information like:
-- What are the most common ports?
-- What are the most common used Software
-- Are there any weird/interesting findings that stand out?
+Now that we have our data we an start analyzing it. First I want to check some general information like: \\
+- What are the most common ports?\\
+- What are the most common used Software?\\
+- Are there any weird/interesting findings that stand out?\\
 
 \newpage
+\subsubsection{Product}
+\begin{figure}[!h]
+    \centering
+    \includegraphics[keepasprectratio,scale=0.3]{/mnt/dev/Projects/DVIZ-Project/images/product-piechart}
+    \caption{Product Pie Chart}
+    \label{fig:product-piechart}
+\end{figure}
+
+A simple Pie Chart that regexes things like web/nginx/apache/httpd for web and other keywords for other categories lets us see
+which Products are commonly used. Mail and Web are obviously used the most because they have to be publicly accessible to function.
+
 \subsubsection{Port Distribution}
 A closer look at the Port distribution shows that the main use is web (port 443 and 80) and email services (port 25). There are
 some concerning ports like DNS (53) that are not recommended to be accessible publicly.
@@ -396,7 +407,7 @@ There are still 19 open DNS Ports from WWZ ISPs that could be residential that a
 
 \begin{figure}[!h]
     \centering
-    \includegraphics[keepaspectratio,scale=0.3]{/home/kevin/images/port-53-distribution-by-isp}
+    \includegraphics[keepaspectratio,scale=0.3]{/mnt/dev/Projects/DVIZ-Project/images/port-53-distribution-by-isp}
     \caption{Port 53 Distribution by ISP}
     \label{fig:port-53-distribution-by-isp}
 \end{figure}

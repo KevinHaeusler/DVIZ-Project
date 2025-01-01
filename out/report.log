@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.25)  25 DEC 2024 09:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.25)  1 JAN 2025 08:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1629,149 +1629,125 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-./report.tex:302: LaTeX Error: File `/home/kevin/images/shodan-search-results' 
-not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.302 .../home/kevin/images/shodan-search-results}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./report.tex:311: LaTeX Error: File `/home/kevin/images/shodan-download-page' n
-ot found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.311 ...{/home/kevin/images/shodan-download-page}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+</mnt/dev/Projects/DVIZ-Project/images/shodan-search-results.png, id=145, 1328.
+965pt x 861.2175pt>
+File: /mnt/dev/Projects/DVIZ-Project/images/shodan-search-results.png Graphic f
+ile (type png)
+<use /mnt/dev/Projects/DVIZ-Project/images/shodan-search-results.png>
+Package pdftex.def Info: /mnt/dev/Projects/DVIZ-Project/images/shodan-search-re
+sults.png  used on input line 302.
+(pdftex.def)             Requested size: 455.24889pt x 295.01778pt.
+</mnt/dev/Projects/DVIZ-Project/images/shodan-download-page.png, id=147, 1316.9
+2pt x 624.3325pt>
+File: /mnt/dev/Projects/DVIZ-Project/images/shodan-download-page.png Graphic fi
+le (type png)
+<use /mnt/dev/Projects/DVIZ-Project/images/shodan-download-page.png>
+Package pdftex.def Info: /mnt/dev/Projects/DVIZ-Project/images/shodan-download-
+page.png  used on input line 311.
+(pdftex.def)             Requested size: 455.24214pt x 215.82364pt.
+</mnt/dev/Projects/DVIZ-Project/images/downloaded-archive.png, id=148, 1322.942
+5pt x 562.1pt>
+File: /mnt/dev/Projects/DVIZ-Project/images/downloaded-archive.png Graphic file
+ (type png)
+<use /mnt/dev/Projects/DVIZ-Project/images/downloaded-archive.png>
+Package pdftex.def Info: /mnt/dev/Projects/DVIZ-Project/images/downloaded-archi
+ve.png  used on input line 323.
+(pdftex.def)             Requested size: 455.22466pt x 193.41867pt.
 
 
-./report.tex:323: LaTeX Error: File `/home/kevin/images/downloaded-archive' not
- found.
+[7 </mnt/dev/Projects/DVIZ-Project/images/shodan-search-results.png> </mnt/dev/
+Projects/DVIZ-Project/images/shodan-download-page.png>]
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.323 ...o]{/home/kevin/images/downloaded-archive}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[7]
-
-./report.tex:337: LaTeX Error: File `/home/kevin/images/32k-dataset-na-entries'
- not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.337 ...home/kevin/images/32k-dataset-na-entries}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+[8 </mnt/dev/Projects/DVIZ-Project/images/downloaded-archive.png>]
+</mnt/dev/Projects/DVIZ-Project/images/32k-dataset-na-entries.png, id=166, 914.
+41624pt x 456.70625pt>
+File: /mnt/dev/Projects/DVIZ-Project/images/32k-dataset-na-entries.png Graphic 
+file (type png)
+<use /mnt/dev/Projects/DVIZ-Project/images/32k-dataset-na-entries.png>
+Package pdftex.def Info: /mnt/dev/Projects/DVIZ-Project/images/32k-dataset-na-e
+ntries.png  used on input line 337.
+(pdftex.def)             Requested size: 274.32698pt x 137.01292pt.
 LaTeX Info: Symbol \textasciiacute not provided by
             font family ntxtlf in TS1 encoding.
             Default family used instead on input line 338.
 LaTeX Info: Symbol \textasciiacute not provided by
             font family ntxtlf in TS1 encoding.
             Default family used instead on input line 338.
+</mnt/dev/Projects/DVIZ-Project/images/9k-dataset-na-entries.png, id=167, 920.4
+3875pt x 454.69875pt>
+File: /mnt/dev/Projects/DVIZ-Project/images/9k-dataset-na-entries.png Graphic f
+ile (type png)
+<use /mnt/dev/Projects/DVIZ-Project/images/9k-dataset-na-entries.png>
+Package pdftex.def Info: /mnt/dev/Projects/DVIZ-Project/images/9k-dataset-na-en
+tries.png  used on input line 346.
+(pdftex.def)             Requested size: 276.13376pt x 136.41068pt.
 
-./report.tex:346: LaTeX Error: File `/home/kevin/images/9k-dataset-na-entries' 
-not found.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+[9 </mnt/dev/Projects/DVIZ-Project/images/32k-dataset-na-entries.png> </mnt/dev
+/Projects/DVIZ-Project/images/9k-dataset-na-entries.png>]
+</mnt/dev/Projects/DVIZ-Project/images/digital-assets-ag-rotkreuz-ch-search.png
+, id=177, 1053.9375pt x 355.3275pt>
+File: /mnt/dev/Projects/DVIZ-Project/images/digital-assets-ag-rotkreuz-ch-searc
+h.png Graphic file (type png)
+<use /mnt/dev/Projects/DVIZ-Project/images/digital-assets-ag-rotkreuz-ch-search
+.png>
+Package pdftex.def Info: /mnt/dev/Projects/DVIZ-Project/images/digital-assets-a
+g-rotkreuz-ch-search.png  used on input line 358.
+(pdftex.def)             Requested size: 316.18369pt x 106.59906pt.
+</mnt/dev/Projects/DVIZ-Project/images/shodan-digital-assets-ag.png, id=178, 10
+53.9375pt x 355.3275pt>
+File: /mnt/dev/Projects/DVIZ-Project/images/shodan-digital-assets-ag.png Graphi
+c file (type png)
+<use /mnt/dev/Projects/DVIZ-Project/images/shodan-digital-assets-ag.png>
+Package pdftex.def Info: /mnt/dev/Projects/DVIZ-Project/images/shodan-digital-a
+ssets-ag.png  used on input line 370.
+(pdftex.def)             Requested size: 316.18369pt x 106.59906pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--386
+
+ []
+
+
+
+[10 </mnt/dev/Projects/DVIZ-Project/images/digital-assets-ag-rotkreuz-ch-search
+.png> </mnt/dev/Projects/DVIZ-Project/images/shodan-digital-assets-ag.png>]
+
+./report.tex:391: Package xkeyval Error: `keepasprectratio' undefined in famili
+es `Gin'.
+
+See the xkeyval package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.346 .../home/kevin/images/9k-dataset-na-entries}
+l.391 ...cts/DVIZ-Project/images/product-piechart}
                                                   
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+</mnt/dev/Projects/DVIZ-Project/images/product-piechart.png, id=188, 700.6175pt
+ x 418.56375pt>
+File: /mnt/dev/Projects/DVIZ-Project/images/product-piechart.png Graphic file (
+type png)
+<use /mnt/dev/Projects/DVIZ-Project/images/product-piechart.png>
+Package pdftex.def Info: /mnt/dev/Projects/DVIZ-Project/images/product-piechart
+.png  used on input line 391.
+(pdftex.def)             Requested size: 210.18686pt x 125.57008pt.
+</mnt/dev/Projects/DVIZ-Project/images/port-53-distribution-by-isp.png, id=189,
+ 733.74126pt x 774.895pt>
+File: /mnt/dev/Projects/DVIZ-Project/images/port-53-distribution-by-isp.png Gra
+phic file (type png)
+<use /mnt/dev/Projects/DVIZ-Project/images/port-53-distribution-by-isp.png>
+Package pdftex.def Info: /mnt/dev/Projects/DVIZ-Project/images/port-53-distribu
+tion-by-isp.png  used on input line 410.
+(pdftex.def)             Requested size: 220.12407pt x 232.47029pt.
 
-
-[8]
-
-./report.tex:358: LaTeX Error: File `/home/kevin/images/digital-assets-ag-rotkr
-euz-ch-search' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.358 ...ges/digital-assets-ag-rotkreuz-ch-search}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./report.tex:370: LaTeX Error: File `/home/kevin/images/shodan-digital-assets-a
-g' not found.
+./report.tex:416: LaTeX Error: \begin{document} ended by \end{data}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.370 ...me/kevin/images/shodan-digital-assets-ag}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[9]
-
-./report.tex:399: LaTeX Error: File `/home/kevin/images/port-53-distribution-by
--isp' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.399 ...kevin/images/port-53-distribution-by-isp}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./report.tex:405: LaTeX Error: \begin{document} ended by \end{data}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.405 \end{data}
+l.416 \end{data}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1779,44 +1755,38 @@ or  <return>  to continue without it.
 
 
 
-[10] 
+[11 </mnt/dev/Projects/DVIZ-Project/images/product-piechart.png> </mnt/dev/Proj
+ects/DVIZ-Project/images/port-53-distribution-by-isp.png>]
+
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (/mnt/dev/Projects/DVIZ-Project/out/report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: FDD04D56A478D0469762B9DA674B37B1;3069.
+(rerunfilecheck)             Checksum: C7580855A2D81EE21C4B54D2B453B62C;3205.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38409 strings out of 473254
- 720614 string characters out of 5717448
- 1960311 words of memory out of 5000000
- 61016 multiletter control sequences out of 15000+600000
+ 38272 strings out of 473254
+ 715020 string characters out of 5717448
+ 1960360 words of memory out of 5000000
+ 60877 multiletter control sequences out of 15000+600000
  597281 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,117p,695b,4037s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{page.11} has been referenced but does not exist, re
-placed by a fixed one
-
-</home/kevin/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><
-/home/kevin/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></home/ke
-vin/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></home/kevin/texl
-ive/2024/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on /mnt/dev/Projects/DVIZ-Project/out/report.pdf (11 pages, 1332
-76 bytes).
+</home/kevin/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb
+></home/kevin/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></home/
+kevin/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></home/kevin/te
+xlive/2024/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on /mnt/dev/Projects/DVIZ-Project/out/report.pdf (12 pages, 6480
+17 bytes).
 PDF statistics:
- 205 PDF objects out of 1000 (max. 8388607)
- 181 compressed objects within 2 object streams
- 40 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 234 PDF objects out of 1000 (max. 8388607)
+ 191 compressed objects within 2 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 210 words of extra memory for PDF output out of 10000 (max. 10000000)
 
